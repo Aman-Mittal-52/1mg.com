@@ -185,3 +185,100 @@ b{
     color: #1aab2a;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer p{
+    opacity: 0.6;
+}
+.footer{
+    padding: 25px 30px;
+    background-color: aliceblue;
+}
+.footer-2{
+    background-color: aliceblue;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 14px;
+}
+.width{
+    width: 100%;
+    margin: 4px 0px;
+    background-color:aliceblue;
+}
+.footer-2 > h2{
+    font-weight: 500;
+}
+.footer-2-flexbox{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-2-flexbox2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+#footer-btn{
+color: white;
+background-color: #ff6f61;
+border: none;
+border-radius: 5px;
+height: 45px;
+align-self: center;
+padding: 15px 44px;
+}
+.footerInp{
+    height: 40px;
+    border: none;
+    width: 20%;
+    align-self: center;
+}
+.footer-about{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-about > div > h6{
+    opacity: 0.7;
+    margin: 7px;
+}
+.footer-end{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    gap: 90px;
+}
+.footer-end-img{
+    width: 150px;
+    padding: 10px;
+}
+.footer-end-img> img{
+    width: 100%;
+}
+.footer-end-box{
+    display: flex;
+}
+.footer-end-img + div > h6{
+    opacity: 0.6;
+}
