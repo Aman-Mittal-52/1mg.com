@@ -1,0 +1,102 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:opsz@8..144&display=swap');
+  *{
+    /* font-family: 'Heebo', sans-serif; */
+    /* font-family: 'Kanit', sans-serif; */
+    font-family: 'Pathway Extreme', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar{
+    width: 100%;
+}
+.title-bar{
+    width: 98%;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-bar > div {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-tabs{
+    width: 65%;
+}
+
+.nav-tabs > a:first-child{
+    color:#ff6f61 ;
+}
+
+.nav-tabs > a:hover{
+    color:#ff6f61 ;
+}
+
+.login-box{
+    opacity: 0.5;
+}
+hr{
+    opacity: 0.4;
+}
+
+.search-nav{
+    display: flex;
+    justify-content:space-between;
+    width: 95%;
+    height: 40px;
+    margin: auto;
+
+}
+
+.search-input{
+    width: 70%;
+    height: 80%;
+    align-self: center;
+}
+
+.search-input> input{
+    margin: 0px 4px;
+    background-color: rgb(243, 243, 243);
+    border: none;
+}
+
+.search-input> input:last-child{
+    width: 80%;
+}
+
+.search-nav > div{
+    display: flex ;
+}
+
+.search-nav > div:last-child{
+    width: 30%;
+    gap: 10px;
+    padding-bottom: 1px;
+}
+
+.btn{
+    color: white;
+    background-color: #ff6f61;
+    width: 30%;
+    border: none;
+    border-radius: 5px;
+}
+
+.nav-select{
+    width: 95%;
+    margin: auto;
+
+}
+
+
+select:hover{
+    opacity: 80%;
+}
